@@ -1,4 +1,5 @@
-import "../css/services.css"
+import "../css/services.css";
+// import dropdown from "../components/dropdown";
 
 function Service() {
     return (
@@ -8,19 +9,48 @@ function Service() {
             </div>
             <div className="services">
                 <div className="international">
-                    <h4>International Services</h4>
+                    <div>
+                        <h4>International Services</h4>
+                    </div>
+                    <div className="buttons">
+                        <button>View More</button>
+                    </div>
                 </div>
+
                 <div className="academic">
-                    <h4>Academic Success</h4>
+                    <div>
+                        <h4>Academic Success</h4>
+                    </div>
+                    <div className="buttons">
+                        <button>View More</button>
+                    </div>
                 </div>
+
                 <div className="employment">
-                    <h4>Student Employment</h4>
+                    <div>
+                        <h4>Student Employment</h4>
+                    </div>
+                    <div className="buttons">
+                        <button>View More</button>
+                    </div>
                 </div>
+
                 <div className="counseling">
-                    <h4>Counseling Services</h4>
+                    <div>
+                        <h4>Counseling Services</h4>
+                    </div>
+                    <div className="buttons">
+                        <button>View More</button>
+                    </div>
                 </div>
+
                 <div className="diversity">
-                    <h4>Diversity on Campus</h4>
+                    <div>
+                        <h4>Diversity on Campus</h4>
+                    </div>
+                    <div className="buttons">
+                        <button>View More</button>
+                    </div>
                 </div>
             </div>
         </div>
