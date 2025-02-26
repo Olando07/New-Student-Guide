@@ -3,20 +3,18 @@ import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
-import Bibliography from "./pages/Bibligraphy"
+import Bibliography from "./pages/Bibligraphy";
 
 function App() {
     return (
         <>
             <NavBar></NavBar>
             <main>
-                <div>
-                    <Routes>
-                        <Route path="/" element={<Home></Home>}></Route>
-                        <Route path="/Services" element={<Services></Services>}></Route>
-                        <Route path="/Bibliography" element={<Bibliography></Bibliography>}></Route>
-                    </Routes>
-                </div>
+                <Routes>
+                    <Route path="/New-Student-Guide/" element={<Home></Home>}></Route>
+                    <Route path="/New-Student-Guide/Services" element={<Services></Services>}></Route>
+                    <Route path="/New-Student-Guide/Bibliography" element={<Bibliography></Bibliography>}></Route>
+                </Routes>
             </main>
         </>
     );

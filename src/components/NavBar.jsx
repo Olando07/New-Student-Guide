@@ -10,23 +10,14 @@ function NavBar() {
                 <h3>Student Service Guide</h3>
             </div>
             <ul className="navbar-links">
-                <li
-                    className="nav-link active"
-                    id="Home"
-                >
-                    <Link to="/">Home</Link>
+                <li className="nav-link active" id="Home">
+                    <Link to="/New-Student-Guide/">Home</Link>
                 </li>
-                <li
-                    className="nav-link"
-                    id="Services"
-                >
-                    <Link to="/Services">Services</Link>
+                <li className="nav-link" id="Services">
+                    <Link to="/New-Student-Guide/Services">Services</Link>
                 </li>
-                <li
-                    className="nav-link"
-                    id="Bibliography"
-                >
-                    <Link to="/Bibliography">Bibliography</Link>
+                <li className="nav-link" id="Bibliography">
+                    <Link to="/New-Student-Guide/Bibliography">Bibliography</Link>
                 </li>
             </ul>
         </nav>
