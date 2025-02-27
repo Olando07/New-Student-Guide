@@ -1,59 +1,25 @@
 import "../css/services.css";
-// import dropdown from "../components/dropdown";
+import { Link } from "react-router-dom";
 
 function Service() {
     return (
-        <div className="container">
-            <div className="header">
-                <h3>Services</h3>
-            </div>
-            <div className="services">
-                <div className="international">
-                    <div>
-                        <h4>International Services</h4>
-                    </div>
-                    <div className="buttons">
-                        <button>View More</button>
-                    </div>
-                </div>
-
-                <div className="academic">
-                    <div>
-                        <h4>Academic Success</h4>
-                    </div>
-                    <div className="buttons">
-                        <button>View More</button>
-                    </div>
-                </div>
-
-                <div className="employment">
-                    <div>
-                        <h4>Student Employment</h4>
-                    </div>
-                    <div className="buttons">
-                        <button>View More</button>
-                    </div>
-                </div>
-
-                <div className="counseling">
-                    <div>
-                        <h4>Counseling Services</h4>
-                    </div>
-                    <div className="buttons">
-                        <button>View More</button>
-                    </div>
-                </div>
-
-                <div className="diversity">
-                    <div>
-                        <h4>Diversity on Campus</h4>
-                    </div>
-                    <div className="buttons">
-                        <button>View More</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <ul className="services">
+            <li>
+                <Link to="/New-Student-Guide/International-Services">International Services</Link>
+            </li>
+            <li>
+                <Link to="/New-Student-Guide/Academic-Success">Academic Success</Link>
+            </li>
+            <li>
+                <Link to="/New-Student-Guide/Student-Employment">Student Employment</Link>
+            </li>
+            <li>
+                <Link to="/New-Student-Guide/Counseling-Services">Counseling Services</Link>
+            </li>
+            <li>
+                <Link to="/New-Student-Guide/Diversity-on-Campus">Diversity on Campus</Link>
+            </li>
+        </ul>
     );
 }
 

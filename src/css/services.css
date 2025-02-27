@@ -19,40 +19,34 @@
 }
 /* default font size is 16px */
 
-.container {
-    margin: 10px;
+.services {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #777;
 }
 
-.header {
+.services li {
     display: flex;
     justify-content: center;
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-/* unsplash for pics */
-
-.international, .academic, .employment, .counseling, .diversity {
-    margin: 10px 0;
-    padding: 120px 0 20px;
-    font-size: 18px;
-    text-align: center;
+    border: 1px solid #000;
+    font-size: 17px;
+    padding: 12px 0;
+    width: 100%;
+    text-decoration: none;
+    transition: .5s;
 }
 
-.services .buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+.services li:hover {
+    background-color: #FF4242;
 }
 
-.services div button {
-    font-size: 16px;
-    height: 30px;
-    padding: 0 15px;
-    border-radius: 5px;
+.services a {
+    text-decoration: none;
     color: #000;
-    background-color: #00aaff;
 }
 
-.services div button:hover {
-    background-color: #00ddff;
+.services a:hover {
+    color: #fff;
 }

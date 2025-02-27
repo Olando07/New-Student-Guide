@@ -1,9 +1,7 @@
 import "../css/navbar.css";
-import "../css/navbar.css";
 import { Link } from "react-router-dom";
 
 function NavBar() {
-
     return (
         <nav className="navbar">
             <div className="navbar-brand">
@@ -12,9 +10,6 @@ function NavBar() {
             <ul className="navbar-links">
                 <li className="nav-link active" id="Home">
                     <Link to="/New-Student-Guide/">Home</Link>
-                </li>
-                <li className="nav-link" id="Services">
-                    <Link to="/New-Student-Guide/Services">Services</Link>
                 </li>
                 <li className="nav-link" id="Bibliography">
                     <Link to="/New-Student-Guide/Bibliography">Bibliography</Link>
