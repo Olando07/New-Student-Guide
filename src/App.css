@@ -23,5 +23,11 @@ body {
 }
 
 main {
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px;
+}
+
+.main-container h3 {
+    font-size: 22px;
 }

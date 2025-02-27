@@ -8,7 +8,7 @@ function NavBar() {
                 <h3>Student Service Guide</h3>
             </div>
             <ul className="navbar-links">
-                <li className="nav-link active" id="Home">
+                <li className="nav-link" id="Home">
                     <Link to="/New-Student-Guide/">Home</Link>
                 </li>
                 <li className="nav-link" id="Bibliography">

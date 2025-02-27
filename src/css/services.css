@@ -24,27 +24,28 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    background-color: #777;
+    background-color: transparent;
 }
 
 .services li {
-    display: flex;
-    justify-content: center;
-    border: 1px solid #000;
+    box-shadow: 2px 5px 10px #cdcdcd;
     font-size: 17px;
-    padding: 12px 0;
     width: 100%;
     text-decoration: none;
-    transition: .5s;
 }
 
 .services li:hover {
-    background-color: #FF4242;
+    background-color: #ff4242;
 }
 
 .services a {
+    display: flex;
+    justify-content: center;
     text-decoration: none;
+    padding: 10px 0;
     color: #000;
+    width: 100%;
+    transition: .5s;
 }
 
 .services a:hover {
