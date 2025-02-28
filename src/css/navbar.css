@@ -1,7 +1,6 @@
 /* Navbar styles */
 nav.navbar {
     background-color: #ff4242;
-    padding: 1.2rem 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,24 +21,26 @@ li.nav-link {
     border-radius: 4px;
     transition: background-color 1s;
     list-style: none;
-    padding: 0.3rem;
+    padding: 1.7rem 1.1rem;
 }
 
-li.nav-link:hover {
+li.nav-link a:hover {
     background-color: rgba(234, 252, 255, 0.807);
 }
 
 li.nav-link a {
     text-decoration: none;
     width: 100%;
-    padding: 2rem 1.1rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    position: relative;
 }
 
 /* slider css for color mode button */
 button.theme {
     border: 1px solid #000;
     font-weight: bold;
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 30px;
     display: inline-flex;
     position: relative;
@@ -62,10 +63,9 @@ button.theme div.slider {
     top: 50%;
     left: -5px;
     background-color: #333;
-    transition: left .5s ease;
-    transform: translateY(-50%);  /* Perfectly center the circle */
+    transition: left 0.5s ease;
+    transform: translateY(-50%); /* Perfectly center the circle */
 }
-
 
 /* Media Queries */
 @media (max-width: 768px) {
@@ -96,9 +96,22 @@ body.light a {
     color: #000;
 }
 
-body.dark button.theme div.slider {
-    left: 133px;  /* Move slider to the right when dark mode is active */
-    background-color: #fff;  /* Darker slider color */
+/* css for highlighting active page */
+body.light .activeTab::after {
+    content: "";
+    height: 4px;
+    width: 80%;
+    background-color: #000;
+    position: absolute;
+    left: 10%;
+    bottom: -2px;
+    transition: all 0.4s ease;
+    pointer-events: none;
+    border-radius: 3px;
+}
+
+body.light .active {
+    text-shadow: 0px 0px 30px #333;
 }
 
 body.light button {
@@ -121,11 +134,33 @@ body.dark button {
     background-color: #333;
 }
 
-body.dark li.nav-link:hover {
+body.dark button.theme div.slider {
+    left: 133px; /* Move slider to the right when dark mode is active */
+    background-color: #ffb700; /* Darker slider color */
+}
+
+body.dark .active {
+    text-shadow: 0px 0px 30px #fff;
+}
+
+body.dark li.nav-link a:hover {
     background-color: #333333d0;
+}
+
+body.dark .activeTab::after {
+    content: "";
+    height: 4px;
+    width: 80%;
+    background-color: #fff;
+    position: absolute;
+    left: 10%;
+    bottom: -2px;
+    transition: all 0.4s ease;
+    pointer-events: none;
+    border-radius: 3px;
 }
 
 /* smooth transition for body background */
 body {
     transition: background-color 0.5s ease, color 0.5s ease;
-} 
+}
