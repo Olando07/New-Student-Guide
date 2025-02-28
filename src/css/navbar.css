@@ -1,55 +1,131 @@
-.navbar {
+/* Navbar styles */
+nav.navbar {
     background-color: #ff4242;
     padding: 1.2rem 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0 3px 8px rgba(133, 133, 133, 1);
 }
 
-.navbar-brand {
+div.navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.navbar-links {
+ul.navbar-links {
     display: flex;
     gap: 2rem;
 }
 
-.nav-link {
+li.nav-link {
     font-size: 18px;
     border-radius: 4px;
-    transition: background-color 0.2s;
+    transition: background-color 1s;
     list-style: none;
     padding: 0.3rem;
 }
 
-.nav-link:hover {
+li.nav-link:hover {
     background-color: rgba(234, 252, 255, 0.807);
 }
 
-.nav-link a {
+li.nav-link a {
     text-decoration: none;
-    color: #000;
     width: 100%;
     padding: 2rem 1.1rem;
 }
 
+/* slider css for color mode button */
+button.theme {
+    border: 1px solid #000;
+    font-weight: bold;
+    padding: .5rem 1.5rem;
+    border-radius: 30px;
+    display: inline-flex;
+    position: relative;
+    cursor: pointer;
+    background-color: #ccc;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: background-color 0.5s ease;
+    width: 160px;
+    padding-left: 30px;
+}
+
+/* slider css */
+button.theme div.slider {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    background-color: #333;
+    transition: left .5s ease;
+    transform: translateY(-50%);  /* Perfectly center the circle */
+}
+
+
+/* Media Queries */
 @media (max-width: 768px) {
-    .navbar {
+    nav.navbar {
         padding: 1rem;
     }
 
-    .navbar-brand {
+    div.navbar-brand {
         font-size: 1.2rem;
     }
 
-    .navbar-links {
+    ul.navbar-links {
         gap: 1rem;
     }
 
-    .nav-link {
+    li.nav-link {
         padding: 0.5rem;
     }
 }
+
+/* Code for light mode */
+body.light {
+    background-color: #fff;
+    color: #000;
+}
+
+body.light a {
+    color: #000;
+}
+
+body.dark button.theme div.slider {
+    left: 133px;  /* Move slider to the right when dark mode is active */
+    background-color: #fff;  /* Darker slider color */
+}
+
+body.light button {
+    color: #000;
+    background-color: #eee;
+}
+
+/* Code for dark mode */
+body.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark a {
+    color: #fff;
+}
+
+body.dark button {
+    color: #fff;
+    background-color: #333;
+}
+
+body.dark li.nav-link:hover {
+    background-color: #333333d0;
+}
+
+/* smooth transition for body background */
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+} 
