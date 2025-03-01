@@ -25,13 +25,10 @@ function NavBar() {
 
     return (
         <nav className="navbar">
-            <div className="navbar-brand">
-                <h3>Student Service Guide</h3>
-            </div>
             <ul className="navbar-links">
-                <li className="nav-link" id="Home">
+                <li className="nav-link-header" id="Home">
                     <Link className={pathname === "/New-Student-Guide/" ? "activeTab" : ""} to="/New-Student-Guide/">
-                        Home
+                        Student Service Guide
                     </Link>
                 </li>
                 <li className="nav-link" id="Bibliography">

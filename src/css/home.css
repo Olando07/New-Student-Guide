@@ -34,8 +34,9 @@ div.intro {
     text-indent: 30px;
 }
 
+/* footer */
 div.group {
-    margin-top: 500px;
+    margin: 500px 0 30px;
     font-size: 18px;
     display: flex;
     justify-content: center;

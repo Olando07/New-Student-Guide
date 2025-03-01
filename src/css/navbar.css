@@ -6,14 +6,35 @@ nav.navbar {
     align-items: center;
 }
 
-div.navbar-brand {
-    font-size: 1.5rem;
+li.nav-link-header {
+    font-size: 1.6rem;
     font-weight: bold;
+    transition: background-color 1s;
+    list-style: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+#Home {
+    padding: 1.4rem 1.1rem;
+}
+
+li.nav-link-header a {
+    text-decoration: none;
+    width: 100%;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+li.nav-link-header a:hover {
+    background-color: rgba(234, 252, 255, 0.807);
+    color: #000;
 }
 
 ul.navbar-links {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 li.nav-link {
@@ -21,11 +42,15 @@ li.nav-link {
     border-radius: 4px;
     transition: background-color 1s;
     list-style: none;
-    padding: 1.7rem 1.1rem;
+}
+
+#Bibliography {
+    padding: 1.9rem 1.1rem;
 }
 
 li.nav-link a:hover {
     background-color: rgba(234, 252, 255, 0.807);
+    color: #000;
 }
 
 li.nav-link a {
@@ -143,8 +168,10 @@ body.dark .active {
     text-shadow: 0px 0px 30px #fff;
 }
 
-body.dark li.nav-link a:hover {
+body.dark li.nav-link a:hover,
+body.dark li.nav-link-header a:hover {
     background-color: #333333d0;
+    color: #fff;
 }
 
 body.dark .activeTab::after {
