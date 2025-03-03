@@ -4,21 +4,14 @@ import { useEffect, useState } from "react";
 
 function NavBar() {
     const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
-    // const [isTransitioning, setIsTransitioning] = useState(false); // Track transition state
 
     const { pathname } = useLocation();
 
     const toggleTheme = () => {
-        // setIsTransitioning(true); // Start transition
-        setTheme(theme === "light" ? "dark" : "light");
+        setTheme(theme === "light" ? "dark" : "light");   
     };
 
     useEffect(() => {
-        // if (isTransitioning) {
-        //     setTimeout(() => {
-        //         setIsTransitioning(false);
-        //     }, 500);
-        // }   , isTransitioning
         document.body.className = theme;
         localStorage.setItem("theme", theme);
     }, [theme]);
