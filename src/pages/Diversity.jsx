@@ -1,4 +1,4 @@
-import "../css/is.css";
+import "../css/diversity.css";
 
 function Diversity() {
     return (

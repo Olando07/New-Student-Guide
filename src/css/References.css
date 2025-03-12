@@ -30,10 +30,18 @@ div.page-header {
 
 div.info {
     font-size: 16px;
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+div.intro {
+    font-size: 16px;
     margin: 15px 0;
     text-indent: 30px;
 }
-
+ 
 div.group {
     margin-top: 500px;
     font-size: 18px;

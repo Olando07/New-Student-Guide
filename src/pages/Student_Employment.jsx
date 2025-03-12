@@ -1,4 +1,4 @@
-import "../css/is.css";
+import "../css/student_employment.css";
 
 function StudentEmployment() {
     return (

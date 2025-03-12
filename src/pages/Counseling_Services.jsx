@@ -1,4 +1,4 @@
-import "../css/is.css";
+import "../css/counseling_services.css";
 
 function CounselingServices() {
     return (

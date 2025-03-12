@@ -1,4 +1,4 @@
-import "../css/is.css";
+import "../css/international_services.css";
 
 function InternationalServices() {
     return (

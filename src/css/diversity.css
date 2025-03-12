@@ -15,20 +15,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", serif;
 }
 
 body {
-    font-size: 25px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-main {
+div.page-header {
+    margin: 18px 0 25px;
     display: flex;
     justify-content: center;
-    margin: 30px 100px;
-    padding: 0px 30px;
 }
 
-.main-container h3 {
-    font-size: 22px;
+div.service {
+    font-size: 16px;
+    margin: 15px 0;
+    text-indent: 30px;
 }
