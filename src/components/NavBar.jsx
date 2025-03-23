@@ -1,11 +1,9 @@
 import "../css/navbar.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 function NavBar() {
     const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
-
-    const { pathname } = useLocation();
 
     const toggleTheme = () => {
         setTheme(theme === "light" ? "dark" : "light");
@@ -20,12 +18,12 @@ function NavBar() {
         <nav className="navbar">
             <ul className="navbar-links">
                 <li className="nav-link-header" id="Home">
-                    <Link className={pathname === "/New-Student-Guide/" ? "activeTab" : ""} to="/New-Student-Guide/">
+                    <Link  to="/New-Student-Guide/">
                         Student Service Guide
                     </Link>
                 </li>
                 <li className="nav-link" id="References">
-                    <Link className={pathname === "/New-Student-Guide/References" ? "activeTab" : ""} to="/New-Student-Guide/References">
+                    <Link to="/New-Student-Guide/References">
                         References
                     </Link>
                 </li>
@@ -48,5 +46,5 @@ function NavBar() {
         </nav>
     );
 }
-// isTransitioning ? "" :
+
 export default NavBar;
