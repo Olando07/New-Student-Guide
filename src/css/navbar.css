@@ -4,6 +4,18 @@
     --black: #000;
 }
 
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+/* add more and label them with numbers */
+body .color {
+    position: absolute;
+    top: 340px;
+    right: -750px;
+    z-index: -1;
+}
+
 nav.navbar {
     background-color: #ff4242;
     display: flex;
@@ -141,6 +153,13 @@ body.light a {
     color: var(--black);
 }
 
+body.light .color {
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    background-image: radial-gradient(closest-side, #4b91cb, var(--white));
+}
+
 /* css for highlighting active page */
 body.light .activeTab::after {
     content: "";
@@ -156,7 +175,7 @@ body.light .activeTab::after {
 }
 
 body.light .active {
-    text-shadow: 0px 0px 7px #aaa, 0px 0px 13px #999, 0px 0px 17px #999, 0px 0px 32px #ff4242, 0px 0px 52px #ff4242, 0px 0px 72px #ff4242;
+    text-shadow: 0px 0px 7px #aaa, 0px 0px 13px #999, 0px 0px 17px #999, 0px 0px 32px #ff8e8e, 0px 0px 52px #ff4242, 0px 0px 72px #ff4242;
 }
 
 /* Code for dark mode */
@@ -169,6 +188,13 @@ body.dark a {
     color: var(--white);
 }
 
+body.dark .color {
+    height:1000px;
+    width: 1000px;
+    border-radius: 50%;
+    background-image: radial-gradient(closest-side, #ff4242, #333);
+}
+
 body.dark button.theme div.slider {
     left: 43px; /* Move slider to the right when dark mode is active */
 }
@@ -179,7 +205,7 @@ body.dark .active {
 
 body.dark li.nav-link a:hover,
 body.dark li.nav-link-header a:hover {
-    background-color: #333333d0;
+    background-color: #333;
     color: var(--white);
 }
 

@@ -25,8 +25,7 @@ body {
 main {
     display: flex;
     justify-content: center;
-    margin: 30px 100px;
-    padding: 0px 30px;
+    margin: 12px 180px 30px;
 }
 
 .main-container h3 {

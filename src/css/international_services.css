@@ -23,7 +23,7 @@ body {
 }
 
 div.page-header {
-    margin: 18px 0 25px;
+    margin: 12px 0 26px;
     display: flex;
     justify-content: center;
 }
@@ -31,5 +31,37 @@ div.page-header {
 div.service {
     font-size: 16px;
     margin: 15px 0;
-    text-indent: 30px;
 }
+
+div.service h3 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+div.service h4 {
+    margin-bottom: 5px;
+}
+
+div.service p {
+    margin: 10px 0;
+}
+
+/* links in text */
+div.service a {
+    color: #ff4242;
+}
+
+div.service a:hover {
+    color: #bf0101;
+}
+
+/* 3 main points */
+.headings {
+    margin-top: 60px;
+}
+
+/* moving text under 2nd point */
+div.service ol, div.service ul {
+    padding-left: 35px;
+}
+
