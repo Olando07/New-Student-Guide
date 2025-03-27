@@ -18,13 +18,13 @@ function App() {
             <main>
                 <div className="main-container">
                     <Routes>
-                        <Route path="/" element={<Home></Home>}></Route>
-                        <Route path="/International-Services" element={<InternationalServices></InternationalServices>}></Route>
-                        <Route path="/Academic-Success" element={<AcademicSuccess></AcademicSuccess>}></Route>
-                        <Route path="/Student-Employment" element={<StudentEmployment></StudentEmployment>}></Route>
-                        <Route path="/Counseling-Services" element={<CounselingServices></CounselingServices>}></Route>
-                        <Route path="/Diversity-on-Campus" element={<Diversity></Diversity>}></Route>
-                        <Route path="/References" element={<References></References>}></Route>
+                        <Route path="/New-Student-Guide/" element={<Home></Home>}></Route>
+                        <Route path="/New-Student-Guide/International-Services" element={<InternationalServices></InternationalServices>}></Route>
+                        <Route path="/New-Student-Guide/Academic-Success" element={<AcademicSuccess></AcademicSuccess>}></Route>
+                        <Route path="/New-Student-Guide/Student-Employment" element={<StudentEmployment></StudentEmployment>}></Route>
+                        <Route path="/New-Student-Guide/Counseling-Services" element={<CounselingServices></CounselingServices>}></Route>
+                        <Route path="/New-Student-Guide/Diversity-on-Campus" element={<Diversity></Diversity>}></Route>
+                        <Route path="/New-Student-Guide/References" element={<References></References>}></Route>
                     </Routes>
                 </div>
                 <div className="color1"></div>
