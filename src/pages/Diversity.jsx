@@ -7,7 +7,7 @@ function Diversity() {
                 <h3>Diversity</h3>
             </div>
             <div className="service">
-                <img src="src\pictures\diversity_banner.jpg" alt="diversity banner" />
+                <img src="./pictures/diversity_banner.jpg" alt="diversity banner" />
                 <p className="heading-q">
                     <b>Equity, Diversity and Inclusion on Campus Guide</b>
                 </p>
@@ -46,10 +46,16 @@ function Diversity() {
                 </ul>
                 <p>Self identify yourself should you desire and assist us in assessing our current EDIA representation to ensure meaningful progress on our EDIA priorities and goals.</p>
                 <p>
-                    For students to participate: <a href="https://www.rrc.ca/services/student-service-centres/" target="_blank">https://www.rrc.ca/services/student-service-centres/</a>
+                    For students to participate:{" "}
+                    <a href="https://www.rrc.ca/services/student-service-centres/" target="_blank">
+                        https://www.rrc.ca/services/student-service-centres/
+                    </a>
                 </p>
                 <p>
-                    For more information: <a href="https://www.rrc.ca/diversity/self-identification/" target="_blank">https://www.rrc.ca/diversity/self-identification/</a>
+                    For more information:{" "}
+                    <a href="https://www.rrc.ca/diversity/self-identification/" target="_blank">
+                        https://www.rrc.ca/diversity/self-identification/
+                    </a>
                 </p>
                 <p className="heading-q">
                     <b>No Wrong Door at RRC Polytech</b>
@@ -58,7 +64,11 @@ function Diversity() {
                 <p>If you or anyone you know is experiencing any of the above. You are not alone, there are many supports and resources available to help.</p>
                 <p>There is no wrong door at RRC Polytech</p>
                 <p>
-                    <b>Important:</b> If this is an emergency and you or someone you know requires immediate support, call 9-1-1 and notify <a href="https://www.rrc.ca/safety/" target="_blank">Campus Security</a>.
+                    <b>Important:</b> If this is an emergency and you or someone you know requires immediate support, call 9-1-1 and notify{" "}
+                    <a href="https://www.rrc.ca/safety/" target="_blank">
+                        Campus Security
+                    </a>
+                    .
                 </p>
                 <p className="heading-q">Where to Go for Help.</p>
                 <p>Go to someone you trust whether it be another student or an instructor </p>
@@ -68,19 +78,23 @@ function Diversity() {
                     <li>Roblin Centre: 204.949.8305 </li>
                     <li>Paterson GlobalFoods Institute: 204.631.3381 </li>
                     <li>
-                        Online: <a href="https://www.rrc.ca/safety/" target="_blank">Campus Sercurity</a>
+                        Online:{" "}
+                        <a href="https://www.rrc.ca/safety/" target="_blank">
+                            Campus Sercurity
+                        </a>
                     </li>
                 </ul>
                 <p>RRC Polytech Resource and Resolution Advisor</p>
                 <ul>
                     <li>Phone: 204.638.2946</li>
-                    <li>
-                        Email: nowrongdoor@rrc.ca
-                    </li>
+                    <li>Email: nowrongdoor@rrc.ca</li>
                     <li>Office: C410 – Notre Dame Campus </li>
                 </ul>
                 <p>
-                    More information: <a href="https://www.rrc.ca/nowrongdoor/help/" target="_blank">https://www.rrc.ca/nowrongdoor/help/</a>
+                    More information:{" "}
+                    <a href="https://www.rrc.ca/nowrongdoor/help/" target="_blank">
+                        https://www.rrc.ca/nowrongdoor/help/
+                    </a>
                 </p>
                 <p className="heading-q">
                     <b>Anti – Racism: It’s Not a Grey Area</b>
@@ -94,7 +108,10 @@ function Diversity() {
                     <li>Intersectionality – is recognizing how the identities of an individual can affect their experiences in different ways, particularly in matters that are impacted by discrimination.</li>
                 </ul>
                 <p>
-                    For more information: <a href="https://www.rrc.ca/diversity/resources/anti-racism/" target="_blank">https://www.rrc.ca/diversity/resources/anti-racism/</a>
+                    For more information:{" "}
+                    <a href="https://www.rrc.ca/diversity/resources/anti-racism/" target="_blank">
+                        https://www.rrc.ca/diversity/resources/anti-racism/
+                    </a>
                 </p>
                 <p>
                     Contact Us: <br />
