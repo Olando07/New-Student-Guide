@@ -18,12 +18,12 @@ function App() {
             <main>
                 <div className="main-container">
                     <Routes basename="/New-Student-Guide">
-                        <Route path="/" element={<Home />} />
-                        <Route path="/International-Services" element={<InternationalServices />} />
-                        <Route path="/Academic-Success" element={<AcademicSuccess />} />
-                        <Route path="/Student-Employment" element={<StudentEmployment />} />
-                        <Route path="/Counseling-Services" element={<CounselingServices />} />
-                        <Route path="/Diversity-on-Campus" element={<Diversity />} />
+                        <Route path="New-Student-Guide/" element={<Home />} />
+                        <Route path="New-Student-Guide/International-Services" element={<InternationalServices />} />
+                        <Route path="New-Student-Guide/Academic-Success" element={<AcademicSuccess />} />
+                        <Route path="New-Student-Guide/Student-Employment" element={<StudentEmployment />} />
+                        <Route path="New-Student-Guide/Counseling-Services" element={<CounselingServices />} />
+                        <Route path="New-Student-Guide/Diversity-on-Campus" element={<Diversity />} />
                         <Route path="New-Student-Guide/References" element={<References />} />
                     </Routes>
                 </div>
