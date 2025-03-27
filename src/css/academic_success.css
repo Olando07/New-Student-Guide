@@ -24,11 +24,19 @@ body {
 
 div.page-header {
     margin: 18px 0 25px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+}
+
+div.page-footer {
+    text-align: center;
+    margin: 60px 0 0;
 }
 
 div.service {
     font-size: 16px;
     margin: 15px 0;
+}
+
+div.service .heading-q {
+    margin-top: 40px;
 }

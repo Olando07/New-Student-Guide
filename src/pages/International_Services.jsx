@@ -9,6 +9,7 @@ function InternationalServices() {
             <div className="service">
                 <h3>Who is considered an international student? </h3>
                 <p>If you don’t have a Canadian permanent resident status or Canadian citizenship and want to study at RRC Polytech, you are considered an international student. You may hold a Study Permit to be able to study in Canada.</p>
+                <p>The following information provided is from RRC Polytech (n.d.).</p>
                 <h4 className="headings">1. Aspire - Support for future students from other countries</h4>
                 <h4>a. LIST OF PROGRAMS: </h4>
                 <p>
@@ -56,13 +57,13 @@ function InternationalServices() {
                 <ul>
                     <li>
                         <a href="https://library.rrc.ca/supports_students" target="_blank">
-                            Academic Success Centre 
+                            Academic Success Centre
                         </a>{" "}
                         - Tutoring, academic coaching, technology literacy, and online resources to help you succeed in your program
                     </li>
                     <li>
                         <a href="https://library.rrc.ca/home" target="_blank">
-                            Library Services 
+                            Library Services
                         </a>{" "}
                         - Online resources and guides on many relevant topics
                     </li>
@@ -71,13 +72,13 @@ function InternationalServices() {
                 <ul>
                     <li>
                         <a href="https://www.rrc.ca/future-students/awards/" target="_blank">
-                            Awards, Scholarships and Bursaries 
+                            Awards, Scholarships and Bursaries
                         </a>{" "}
                         - Financial aid based on achievement or financial need
                     </li>
                     <li>
                         <a href="https://www.rrc.ca/international/live-in-manitoba/accommodation-guide/" target="_blank">
-                            Accommodation Guide 
+                            Accommodation Guide
                         </a>{" "}
                         - Guide to housing options and resources
                     </li>
@@ -106,7 +107,7 @@ function InternationalServices() {
                 <ul>
                     <li>
                         <a href="https://www.rrc.ca/safety/" target="_blank">
-                            College Security Services 
+                            College Security Services
                         </a>{" "}
                         - Services such as Safe Walk, crime prevention, and first aid, to keep you secure in campus. Check out these{" "}
                         <a href="https://www.rrc.ca/safety/tips/" target="_blank">
@@ -125,13 +126,13 @@ function InternationalServices() {
                 <h4 className="headings">3. Adapt – Guidelines, procedures, and support for a safe learning and working environment</h4>
                 <h4>Pre- and Post-Arrival Guides </h4>
                 <p>
-                    One of the first steps is to apply for a {" "}
+                    One of the first steps is to apply for a{" "}
                     <a href="https://www.rrc.ca/international/work-and-immigration/study-permit/" target="_blank">
                         study permit
                     </a>
                     {", "}
                     <a href="https://www.rrc.ca/international/work-and-immigration/visa-to-enter-canada/" target="_blank">
-                         temporary resident visa (TRV)
+                         temporary resident visa (TRV)
                     </a>{" "}
                     or{" "}
                     <a href="https://www.rrc.ca/international/work-and-immigration/visa-to-enter-canada/" target="_blank">
@@ -184,11 +185,15 @@ function InternationalServices() {
                 <p>
                     STEP 4 – Social Insurance Number You’ll need a Social Insurance Number (SIN) to work in Canada. If you meet all the requirements, you can apply for one by providing your passport and study permit in person at a Service Canada Centre. Visit{" "}
                     <a href="https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html" target="_blank">
-                         servicecanada.gc.ca
+                         servicecanada.gc.ca
                     </a>{" "}
                     to learn more or to download an application.
                 </p>
             </div>
+            <div className="page-footer">
+                <h2>Done by Kiranjot</h2>
+            </div>
+            <div className="color2"></div>
         </>
     );
 }

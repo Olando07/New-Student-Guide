@@ -27,7 +27,7 @@ function App() {
                         <Route path="/New-Student-Guide/References" element={<References></References>}></Route>
                     </Routes>
                 </div>
-                <div className="color"></div>
+                <div className="color1"></div>
             </main>
         </>
     );

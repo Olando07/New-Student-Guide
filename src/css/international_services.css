@@ -24,8 +24,12 @@ body {
 
 div.page-header {
     margin: 12px 0 26px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+}
+
+div.page-footer {
+    text-align: center;
+    margin: 50px 0 5px;
 }
 
 div.service {
@@ -57,7 +61,7 @@ div.service a:hover {
 
 /* 3 main points */
 .headings {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 /* moving text under 2nd point */
