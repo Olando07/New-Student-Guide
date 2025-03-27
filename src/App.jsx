@@ -24,7 +24,7 @@ function App() {
                         <Route path="/Student-Employment" element={<StudentEmployment />} />
                         <Route path="/Counseling-Services" element={<CounselingServices />} />
                         <Route path="/Diversity-on-Campus" element={<Diversity />} />
-                        <Route path="/References" element={<References />} />
+                        <Route path="New-Student-Guide/References" element={<References />} />
                     </Routes>
                 </div>
                 <div className="color1"></div>
