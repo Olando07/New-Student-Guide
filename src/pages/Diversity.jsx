@@ -1,4 +1,5 @@
 import "../css/diversity.css";
+import diversityBanner from "../images/diversity_banner.jpg";
 
 function Diversity() {
     return (
@@ -7,7 +8,7 @@ function Diversity() {
                 <h3>Diversity</h3>
             </div>
             <div className="service">
-                <img src="/images/diversity_banner.jpg" alt="diversity banner" />
+                <img src={diversityBanner} alt="diversity banner" type="jpeg" />
                 <p className="heading-q">
                     <b>Equity, Diversity and Inclusion on Campus Guide</b>
                 </p>
