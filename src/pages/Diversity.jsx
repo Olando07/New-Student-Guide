@@ -7,7 +7,8 @@ function Diversity() {
                 <h3>Diversity</h3>
             </div>
             <div className="service">
-                <img src="public\images\diversity_banner.jpg" alt="diversity banner" />dist\images\diversity_banner.jpg
+                <img src="public/images/diversity_banner.jpg" alt="diversity banner" />
+                <img src="public/images/pfp1.jpg" alt="pfp" />
                 <p className="heading-q">
                     <b>Equity, Diversity and Inclusion on Campus Guide</b>
                 </p>
