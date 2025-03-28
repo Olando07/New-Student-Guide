@@ -1,5 +1,5 @@
 import "../css/diversity.css";
-import diversityBanner from "../images/diversity_banner.jpg";
+import diversityBanner from "../../public/images/diversity_banner.jpg";
 
 function Diversity() {
     return (
