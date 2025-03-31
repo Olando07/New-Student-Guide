@@ -55,9 +55,6 @@ function Bibliography() {
                     <p className="sources">
                         Verhaest, D. Baert, S., Rotsaert, O., & Omey, E. (2016). <i>Student employment and later labour market success: No evidence for higher employment chances.</i> Kyklos (Basel), 69(3), 401–425. <a href="https://doi.org/10.1111/kykl.12115">https://doi.org/10.1111/kykl.12115</a>
                     </p>
-                    <p className="sources">
-                        <i>“Quote”</i> (Loeb et al., 2020).
-                    </p>
                 </div>
             </div>
 
