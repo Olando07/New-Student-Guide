@@ -8,6 +8,9 @@ function InternationalServices() {
             </div>
             <div className="service">
                 <h3>Who is considered an international student? </h3>
+                <p>
+                    <i>"International Education is worth billions of dollars to the world economy, and many countries such as the United States, United Kingdom, Canada and Australia have government initiatives that look to stimulate and guide international student mobility, research and technology transfer." (Shneikat, D et al., 2021)</i>
+                </p>
                 <p>If you don’t have a Canadian permanent resident status or Canadian citizenship and want to study at RRC Polytech, you are considered an international student. You may hold a Study Permit to be able to study in Canada.</p>
                 <p>The following information provided is from RRC Polytech (n.d.).</p>
                 <h4 className="headings">1. Aspire - Support for future students from other countries</h4>

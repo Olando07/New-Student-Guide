@@ -7,6 +7,9 @@ function StudentEmployment() {
                 <h3>Student Employment</h3>
             </div>
             <div className="service">
+                <p>
+                    <i>"We find that neither form of student work experience enhances initial recruitment decisions. For a number of candidate subgroups (by education level and occupation type), even an adverse effect is found." (Verhaest, D et al., 2016)</i>
+                </p>
                 <p>The following information provided is from RRC Polytech (n.d.).</p>
                 <p>
                     <b>Provide networking opportunities for students</b>
