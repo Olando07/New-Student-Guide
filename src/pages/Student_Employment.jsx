@@ -16,7 +16,10 @@ function StudentEmployment() {
                 </p>
                 <p>Networking is crucial when it comes to landing a job, especially as a student. You can sign-up for Employer On-Campus, Off-Campus and Virtual Events to network with employers and learn about specific industries. You can also attend lunch-and-learn sessions, hallway information booths and networking events that happen throughout the academic year to connect with people from your industry.</p>
                 <p>
-                    For more info - <a href="https://www.rrc.ca/careerservices/students/" target="_blank">https://www.rrc.ca/careerservices/students/</a>
+                    For more info -{" "}
+                    <a href="https://www.rrc.ca/careerservices/students/" target="_blank">
+                        https://www.rrc.ca/careerservices/students/
+                    </a>
                 </p>
                 <p className="heading-q">
                     <b>Promote students to possible employers </b>
@@ -26,7 +29,10 @@ function StudentEmployment() {
                 </p>
                 <p>Both current students and red river alumni can gain job opportunities using the career bridge services on the student hub platform. This platform allows employers to post job positions which students can apply for. These positions may be full time, part time, work integrated learning and term.</p>
                 <p>
-                    For more info - <a href=" https://www.rrc.ca/careerservices/career-bridge/student-instructions/" target="_blank">https://www.rrc.ca/careerservices/career-bridge/student-instructions/</a>
+                    For more info -{" "}
+                    <a href=" https://www.rrc.ca/careerservices/career-bridge/student-instructions/" target="_blank">
+                        https://www.rrc.ca/careerservices/career-bridge/student-instructions/
+                    </a>
                 </p>
                 <p>Are there any programs that students can join to get jobs and gain work experience? Well, the government has provided the following programs:</p>
                 <p className="heading-q">
@@ -38,13 +44,19 @@ function StudentEmployment() {
                 </p>
                 <p>STEP Services is the official student employment placement service for the Government of Manitoba. Eligible students can find full and part-time jobs with government departments, agencies, and corporations throughout the year in various locations across the province. </p>
                 <p>
-                    For more info - <a href=" https://www.rrc.ca/careerservices/2021/09/17/looking-for-student-jobs/" target="_blank">https://www.rrc.ca/careerservices/2021/09/17/looking-for-student-jobs/</a>
+                    For more info -{" "}
+                    <a href=" https://www.rrc.ca/careerservices/2021/09/17/looking-for-student-jobs/" target="_blank">
+                        https://www.rrc.ca/careerservices/2021/09/17/looking-for-student-jobs/
+                    </a>
                 </p>
                 <p className="heading-q">
                     <b>Assistance with writing effective resumes and cover letters.</b>
                 </p>
                 <p>
-                    For more info - <a href="https://www.rrc.ca/careerservices/career-bridge/student-instructions/" target="_blank">https://www.rrc.ca/careerservices/career-bridge/student-instructions/</a>
+                    For more info -{" "}
+                    <a href="https://www.rrc.ca/careerservices/career-bridge/student-instructions/" target="_blank">
+                        https://www.rrc.ca/careerservices/career-bridge/student-instructions/
+                    </a>
                 </p>
                 <p>
                     <b>Online Career Resources </b>
@@ -62,6 +74,7 @@ function StudentEmployment() {
             <div className="page-footer">
                 <h2>Done by Olando McDonald</h2>
             </div>
+            <div className="color1"></div>
             <div className="color4"></div>
         </>
     );

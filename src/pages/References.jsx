@@ -57,7 +57,7 @@ function Bibliography() {
                     </p>
                 </div>
             </div>
-
+            <div className="color1"></div>
             <Footer></Footer>
         </>
     );

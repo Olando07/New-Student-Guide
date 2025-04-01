@@ -122,6 +122,7 @@ function Diversity() {
             <div className="page-footer">
                 <h2>Done by Jan Misa</h2>
             </div>
+            <div className="color1"></div>
             <div className="color3"></div>
             <div className="color4"></div>
             <div className="color5"></div>

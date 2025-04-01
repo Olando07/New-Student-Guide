@@ -132,7 +132,7 @@ function InternationalServices() {
                     </a>
                     {", "}
                     <a href="https://www.rrc.ca/international/work-and-immigration/visa-to-enter-canada/" target="_blank">
-                         temporary resident visa (TRV)
+                        temporary resident visa (TRV)
                     </a>{" "}
                     or{" "}
                     <a href="https://www.rrc.ca/international/work-and-immigration/visa-to-enter-canada/" target="_blank">
@@ -185,7 +185,7 @@ function InternationalServices() {
                 <p>
                     STEP 4 – Social Insurance Number You’ll need a Social Insurance Number (SIN) to work in Canada. If you meet all the requirements, you can apply for one by providing your passport and study permit in person at a Service Canada Centre. Visit{" "}
                     <a href="https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html" target="_blank">
-                         servicecanada.gc.ca
+                        servicecanada.gc.ca
                     </a>{" "}
                     to learn more or to download an application.
                 </p>
@@ -193,6 +193,7 @@ function InternationalServices() {
             <div className="page-footer">
                 <h2>Done by Kiranjot</h2>
             </div>
+            <div className="color1"></div>
             <div className="color2"></div>
         </>
     );
