@@ -13,7 +13,7 @@ function Diversity() {
                     <b>Equity, Diversity and Inclusion on Campus Guide</b>
                 </p>
                 <p>
-                    <i>“A few interviewees hinted at a higher purpose by explicitly stating that they were not motivated by money, but by wanting to utilize their past experience in a career where they would have the opportunity to effect progressive change in organizational cultures” (Greene & Kirton., 2024). </i>
+                    <i>“A few interviewees hinted at a higher purpose by explicitly stating that they were not motivated by money, but by wanting to utilize their past experience in a career where they would have the opportunity to effect progressive change in organizational cultures” (Greene & Kirton, 2024). </i>
                 </p>
                 <p>We a RRC Polytech believe that providing an atmosphere that feels respectful, inclusive and diverse, amongst the students, staff and external partners, this aspect of ours being our greatest strengths, our goals are to provide a barrier free environment where individuals can successfully attain their academic, employment and research goals.</p>
                 <p>The following information about Equity, Diversity and Inclusion on Campus is from RRC Polytech (n.d.): </p>
