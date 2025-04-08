@@ -13,18 +13,8 @@ function Home() {
                 <p className="heading-list">We have included all the necessary information that a new student needs to know about the college, including:</p>
                 <ul className="heading-list">
                     <li>
-                        <Link className="/New-Student-Guide/International-Services" to="/New-Student-Guide/International-Services">
-                            International Services
-                        </Link>
-                    </li>
-                    <li>
                         <Link className="/New-Student-Guide/Academic-Success" to="/New-Student-Guide/Academic-Success">
                             Academic Success
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className="/New-Student-Guide/Student-Employment" to="/New-Student-Guide/Student-Employment">
-                            Student Employment
                         </Link>
                     </li>
                     <li>
@@ -35,6 +25,16 @@ function Home() {
                     <li>
                         <Link className="/New-Student-Guide/Diversity-on-Campus" to="/New-Student-Guide/Diversity-on-Campus">
                             Diversity on Campus
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="/New-Student-Guide/International-Services" to="/New-Student-Guide/International-Services">
+                            International Services
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="/New-Student-Guide/Student-Employment" to="/New-Student-Guide/Student-Employment">
+                            Student Employment
                         </Link>
                     </li>
                 </ul>

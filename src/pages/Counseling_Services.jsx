@@ -5,13 +5,13 @@ function CounselingServices() {
     return (
         <>
             <div className="page-header">
-                <h3>Counceling Services</h3>
+                <h3>Counseling Services</h3>
             </div>
             <div className="service">
                 <img src={counselingBanner} alt="counseling banner" type="jpeg" />
-                <h3>Counselling </h3>
+                <h3>Counseling </h3>
                 <p>
-                    <i>“Key elements of the lived experience of mental wellness during the pandemic included shifting support systems, disconnection, continual adaptation, worry, sense of missing out, and environmental stress.”</i>(Laczko, D et al., 2022)
+                    <i>“Key elements of the lived experience of mental wellness during the pandemic included shifting support systems, disconnection, continual adaptation, worry, sense of missing out, and environmental stress” (Laczko et al., 2022).</i>
                 </p>
                 <p>RRC Polytech provides free, confidential counselling services to all students, here to assist with personal struggles and develop skills to better manage and enjoy their college experience. </p>
                 <p>The following information about counselling services is from RRC Polytech(n.d.): </p>
