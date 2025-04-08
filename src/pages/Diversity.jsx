@@ -13,7 +13,7 @@ function Diversity() {
                     <b>Equity, Diversity and Inclusion on Campus Guide</b>
                 </p>
                 <p>
-                    <i>“A few interviewees hinted at a higher purpose by explicitly stating that they were not motivated by money, but by wanting to utilize their past experience in a career where they would have the opportunity to effect progressive change in organizational cultures” (Greene A, & Kirton G., 2024). </i>
+                    <i>“A few interviewees hinted at a higher purpose by explicitly stating that they were not motivated by money, but by wanting to utilize their past experience in a career where they would have the opportunity to effect progressive change in organizational cultures” (Greene & Kirton G., 2024). </i>
                 </p>
                 <p>We a RRC Polytech believe that providing an atmosphere that feels respectful, inclusive and diverse, amongst the students, staff and external partners, this aspect of ours being our greatest strengths, our goals are to provide a barrier free environment where individuals can successfully attain their academic, employment and research goals.</p>
                 <p>The following information about Equity, Diversity and Inclusion on Campus is from RRC Polytech (n.d.): </p>
@@ -30,19 +30,19 @@ function Diversity() {
                 <p>Why take the questionnaire? </p>
                 <ul>
                     <li>
-                        <b>It’s easy</b> – self-identification takes about two minutes to complete.
+                        <b>It’s easy</b>
                     </li>
                     <li>
-                        <b>It’s simple</b> – you select the option that best represents your status for each of the five equity-deserving groups.
+                        <b>It’s simple</b>
                     </li>
                     <li>
-                        <b>It’s voluntary</b> – employees and students can choose to participate and choose how they want to identify for each equity-deserving group.
+                        <b>It’s voluntary</b>
                     </li>
                     <li>
-                        <b>It’s confidential </b> – self-identification data is collected and stored confidentially, and only aggregate data will be reported.
+                        <b>It’s confidential </b>
                     </li>
                     <li>
-                        <b>It’s impactful</b> – your participation is vital in helping us assess RRC Polytech’s diversity and representation, which will support the development of future inclusive and equitable programs and initiatives.
+                        <b>It’s impactful</b>
                     </li>
                 </ul>
                 <p>Self identify yourself should you desire and assist us in assessing our current EDIA representation to ensure meaningful progress on our EDIA priorities and goals.</p>
@@ -61,11 +61,11 @@ function Diversity() {
                 <p className="heading-q">
                     <b>No Wrong Door at RRC Polytech</b>
                 </p>
-                <p>At RRC Polytech we are committed to preventing sexual violence, harassment and discrimination all to create a learning, living, and working environment for everyone.</p>
+                <p>At RRC Polytech we are committed to preventing sexual violence, harassment and discrimination to create a safe learning, living, and working environment for everyone. </p>
                 <p>If you or anyone you know is experiencing any of the above. You are not alone, there are many supports and resources available to help.</p>
                 <p>There is no wrong door at RRC Polytech</p>
                 <p>
-                    <b>Important:</b> If this is an emergency and you or someone you know requires immediate support, call 9-1-1 and notify{" "}
+                    <b>Important:</b> Important: “If this is an emergency and you or someone you know requires immediate support, call 9-1-1 and notify Campus Security”.{" "}
                     <a href="https://www.rrc.ca/safety/" target="_blank">
                         Campus Security
                     </a>
@@ -100,13 +100,13 @@ function Diversity() {
                 <p className="heading-q">
                     <b>Anti – Racism: It’s Not a Grey Area</b>
                 </p>
-                <p>As a College community, we have a responsibility to stand up, and speak out against racism in all it’s forms. Even within campus we’re not immune to systematic racism and unconscious bias that continues to be prevalent and still exist within our classrooms, hallways and meeting rooms. That is why we must do more.</p>
-                <p>Committing to anti-racism is committing to action.</p>
+                <p>At RRC Polytech, we all have a responsibility to stand up, and speak out against racism in all it’s forms. Even within the campus we are not immune to racism and any unconscious bias that continues to persist and still exist within our community whether it be in the classrooms or hallways of our institution. That is why we must do more. </p>
+
                 <ul>
-                    <li>The Anti-Racism Action Committee – made up of volunteers from all around the college and helps integrate anti-racist sentiments.</li>
-                    <li>Anti-racism - is a conscious choice – it’s not the absence of racism, but rather the decision to actively condemn racism and recognize the impact it has on the people around us. There is no room for racism in any of our spaces and everyone is held with the same expectation to respect all people.</li>
-                    <li>Institutional racism – is racism that is woven into policies and functions at the organizational and governmental levels – which affects people and opportunities broadly and to varying degrees.</li>
-                    <li>Intersectionality – is recognizing how the identities of an individual can affect their experiences in different ways, particularly in matters that are impacted by discrimination.</li>
+                    <li>The Anti-Racism Action Committee – made up of volunteers from all around the college and helps integrate anti-racist sentiments. </li>
+                    <li>Anti-racism – is a conscious choice to decide for yourself to actively refuse to condone racism, recognizing its impact on the people around us. </li>
+                    <li>Institutional racism – policies and functions woven into institutions which can affect people opportunities to varying degrees. </li>
+                    <li>Intersectionality – recognize how someone's identity may affect their experiences, in matters regarding discrimination. </li>
                 </ul>
                 <p>
                     For more information:{" "}
