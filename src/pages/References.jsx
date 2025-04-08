@@ -32,28 +32,28 @@ function Bibliography() {
                         </a>
                     </p>
                     <p className="sources">
-                        RRC Polytech. (n.d.). <i>Academic Success Centre.</i> RRC Polytech. <a href="https://www.rrc.ca/academic-success/<">https://www.rrc.ca/academic-success/</a>
+                        RRC Polytech. (n.d.). <i>Academic Success Centre.</i> RRC Polytech. <a href="https://www.rrc.ca/academic-success/" target="_blank">https://www.rrc.ca/academic-success/</a>
                     </p>
                     <p className="sources">
-                        RRC Polytech. (n.d.). <i>Counselling.</i> RRC Polytech. <a href="https://www.rrc.ca/counselling/">https://www.rrc.ca/counselling/</a>
+                        RRC Polytech. (n.d.). <i>Counselling.</i> RRC Polytech. <a href="https://www.rrc.ca/counselling/" target="_blank">https://www.rrc.ca/counselling/</a>
                     </p>
                     <p className="sources">
-                        RRC Polytech. (n.d.). <i>Equity, Diversity and Inclusion on Campus.</i> RRC Polytech. <a href="https://www.rrc.ca/diversity/">https://www.rrc.ca/diversity/</a>
+                        RRC Polytech. (n.d.). <i>Equity, Diversity and Inclusion on Campus.</i> RRC Polytech. <a href="https://www.rrc.ca/diversity/" target="_blank">https://www.rrc.ca/diversity/</a>
                     </p>
                     <p className="sources">
-                        RRC Polytech. (n.d.). <i>Student Accessibility Services.</i> RRC Polytech. <a href="https://www.rrc.ca/accessibility/">https://www.rrc.ca/accessibility/</a>
+                        RRC Polytech. (n.d.). <i>Student Accessibility Services.</i> RRC Polytech. <a href="https://www.rrc.ca/accessibility/" target="_blank">https://www.rrc.ca/accessibility/</a>
                     </p>
                     <p className="sources">
-                        RRC Polytech. (n.d.). <i>Study, live and work in the heart of Canada.</i> RRC Polytech. <a href="https://www.rrc.ca/international/">https://www.rrc.ca/international/</a>{" "}
+                        RRC Polytech. (n.d.). <i>Study, live and work in the heart of Canada.</i> RRC Polytech. <a href="https://www.rrc.ca/international/" target="_blank">https://www.rrc.ca/international/</a>{" "}
                     </p>
                     <p className="sources">
-                        RRC Polytech. (n.d.). <i>Career Services.</i> RRC Polytech <a href="https://www.rrc.ca/careerservices/">https://www.rrc.ca/careerservices/</a>
+                        RRC Polytech. (n.d.). <i>Career Services.</i> RRC Polytech <a href="https://www.rrc.ca/careerservices/" target="_blank">https://www.rrc.ca/careerservices/</a>
                     </p>
                     <p className="sources">
                         Shneikat, B., Cobanoglu, C., & Tanova, C. (Eds.). (2021). <i>Global perspectives on recruiting international students : Challenges and opportunities.</i> Emerald Publishing.
                     </p>
                     <p className="sources">
-                        Verhaest, D. Baert, S., Rotsaert, O., & Omey, E. (2016). Student employment and later labour market success: No evidence for higher employment chances. <i>Kyklos (Basel), 69</i>(3), 401–425. <a href="https://doi.org/10.1111/kykl.12115">https://doi.org/10.1111/kykl.12115</a>
+                        Verhaest, D. Baert, S., Rotsaert, O., & Omey, E. (2016). Student employment and later labour market success: No evidence for higher employment chances. <i>Kyklos (Basel), 69</i>(3), 401–425. <a href="https://doi.org/10.1111/kykl.12115" target="_blank">https://doi.org/10.1111/kykl.12115</a>
                     </p>
                 </div>
             </div>
