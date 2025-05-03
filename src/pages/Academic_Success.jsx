@@ -45,7 +45,7 @@ function AcademicSuccess() {
                 </p>
             </div>
             <div className="page-footer">
-                <h2>Done by Sunrise Nguyen</h2>
+                <h2>Done by Sunrise</h2>
             </div>
             <div className="color1"></div>
         </>

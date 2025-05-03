@@ -84,7 +84,7 @@ function CounselingServices() {
                 </ul>
                 <p>CONFIDENTIALITY: all staff on campus take very serious care to protect the privacy of your personal information, and you can decide for yourself what information you wish to reveal should you seeking counselling.</p>
                 <div className="page-footer">
-                    <h2>Done by Jan Misa</h2>
+                    <h2>Done by Jan</h2>
                 </div>
                 <div className="color1"></div>
                 <div className="color3"></div>
