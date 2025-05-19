@@ -194,7 +194,7 @@ function InternationalServices() {
                 </p>
             </div>
             <div className="page-footer">
-                <h2>Done by Kiran </h2>
+                <h2>Done by Olando</h2>
             </div>
             <div className="color1"></div>
             <div className="color2"></div>
